@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon",
     "build": "tsc",
-    "preview": "npm run build && node dist/index.js"
+    "preview": "npm run build && node dist/index.js",
+    "vercerl-build": "echo hello"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,7 @@
     "dotenv": "^16.4.5",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vercel": "^35.2.2"
   }
 }

@@ -7,3 +7,9 @@ node_modules/
 
 .DS_STORE
 
+api/
+public/
+
+.vercel/
+
+vercel.json
